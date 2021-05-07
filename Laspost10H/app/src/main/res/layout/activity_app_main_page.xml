@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".App_Main_Page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Role"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:textAllCaps="true"
+        android:textColor="#5DC179"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/user_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textSize="15dp"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/lab_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lab"
+        android:textSize="15dp"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/delivery_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Delivery Staff"
+        android:textSize="15dp"/>
+
+</LinearLayout>

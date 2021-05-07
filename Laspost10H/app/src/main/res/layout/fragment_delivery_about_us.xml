@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".delivery.after_login.Delivery_About_Us">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to 'Labspot'"
+                android:textColor="#262626"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:focusable="true"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#262626"
+                android:layout_gravity="top"
+                android:text="'Labspot' is a platform where you can find all the laboratory types for testing all the types of products (Food, water, cosmetics, botany, dairy, products, chemicals, etc.). You can save your time and effort effectively. And all the procedure for using our mobile application is as easy as compare to other mobile applications (like Zomato, OLA, etc.) to be easier to use."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#262626"
+                android:layout_gravity="top"
+                android:text="Using 'Labspot', you can apply to the particular laboratory for testing certain things. After applying, wait for the laboratory to confirm your request. When the laboratory accepts the offer, then from our platform, one local delivery person will assign to collects the sample from your house and also collects 50% payment of test in COD mode and sample will be delivered it to the laboratory by a delivery person."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#262626"
+                android:layout_gravity="top"
+                android:text="When the laboratory has collected the sample, then the Laboratory staff will send you an e-mail. An e-mail consists of confirming that the sample has received and the information about when all the testing procedure tasks will complete."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#262626"
+                android:layout_gravity="top"
+                android:text="When all procedures are completed, the laboratory will send you an e-mail that all the tests are completed successfully. After that, again, one local delivery person will assign by our platform to collect a hard copy of the report and some other stuff from the laboratory and delivered to your home by the delivery person. Then you also have to pay the remaining 50% payment of the test in COD mode to the delivery person."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

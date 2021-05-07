@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Request I'D : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_test_id_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="40dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_test_id"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applicant Name : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_name_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST LAB NAME"
+            android:layout_marginLeft="40dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applicant Phone No. : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_phone_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST NAME"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_phone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applicant E-Mail I'D : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_mail_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_user_mail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Name : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_test_name_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="72dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_test_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Request : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_date_of_request_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST REQUEST DATE"
+            android:layout_marginLeft="38dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/lab_view_new_test_request_date_of_request"/>
+
+    </LinearLayout>
+
+</LinearLayout>

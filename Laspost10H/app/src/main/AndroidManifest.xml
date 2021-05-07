@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laspost10h">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".delivery.after_login.Welcome_Delivery_Page"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".lab.after_login.Welcome_Lab_Page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user.after_login.Welcome_User_Page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Registration_Page" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Account_Verification" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Reset_Password" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Forgot_Password_otp_Submit" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Forgot_Password" />
+        <activity android:name=".delivery.registration_and_login_system.Delivery_Login_Page" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Registration_Page" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Account_Verification" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Reset_Password" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Forgot_Password_otp_Submit" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Forgot_Password" />
+        <activity android:name=".lab.registration_and_login_system.Lab_Login_Page" />
+        <activity android:name=".user.registration_and_login_system.User_Registration_Page" />
+        <activity android:name=".user.registration_and_login_system.User_Account_Verification" />
+        <activity android:name=".user.registration_and_login_system.User_Reset_Password" />
+        <activity android:name=".user.registration_and_login_system.User_Forgot_Password_otp_Submit" />
+        <activity android:name=".user.registration_and_login_system.User_Forgot_Password" />
+        <activity android:name=".user.registration_and_login_system.User_Login_Page" />
+        <activity android:name=".App_Main_Page" />
+        <activity android:name=".Spalsh_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

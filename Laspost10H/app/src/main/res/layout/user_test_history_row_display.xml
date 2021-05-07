@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Request I'D : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_request_id_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="45dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_request_id"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab Name : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_lab_name_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST LAB NAME"
+            android:layout_marginLeft="83dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_lab_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Name : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_test_name_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST NAME"
+            android:layout_marginLeft="78dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_test_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Price : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_test_price_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="80dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_test_price"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* incl. 20% as Access Fees and All Other Taxes"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Request : - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_request_date_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST REQUEST DATE"
+            android:layout_marginLeft="42dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_request_date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Completion Date: - "
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#880E4F"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_date_of_report_delivered_title"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST ID"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textColor="#262626"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:id="@+id/user_test_history_date_of_report_delivered"/>
+
+    </LinearLayout>
+
+</LinearLayout>

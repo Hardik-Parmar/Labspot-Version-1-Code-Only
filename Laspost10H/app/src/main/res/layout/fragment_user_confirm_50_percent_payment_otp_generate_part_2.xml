@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".delivery.after_login.lab_side_request_otp_section.User_Confirm_50_Percent_Payment_otp_Generate_Part_2">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery of Report and Collect Payment"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#262626"
+        android:id="@+id/lab_user_confirm_50_percent_payment_otp_generate_title"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* INSTRUCTION"
+        android:layout_marginLeft="15dp"
+        android:textSize="12dp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="15dp"
+        android:textColor="#0000FF"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/lab_user_confirm_50_percent_payment_otp_generate_title_2"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_background"
+        android:layout_gravity="center_horizontal"
+        android:text="Report Delivered"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:id="@+id/lab_user_confirm_50_percent_payment_otp_generate_otp"/>
+
+</LinearLayout>

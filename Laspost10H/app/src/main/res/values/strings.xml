@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Labspot</string>
+    <string name="user_welcome_title">General User</string>
+    <string name="lab_welcome_title">Laboratory</string>
+    <string name="delivery_welcome_title">Delivery Staff</string>
+
+    <string-array name="user_city_names">
+        <item>Select your City</item>
+        <item>Ahmedabad</item>
+        <item>Vadodara</item>
+        <item>Gandhinagar</item>
+        <item>Surat</item>
+        <item>Rajkot</item>
+    </string-array>
+
+    <string-array name="delivery_city_names">
+        <item>Select your City</item>
+        <item>Ahmedabad</item>
+        <item>Vadodara</item>
+        <item>Gandhinagar</item>
+        <item>Surat</item>
+        <item>Rajkot</item>
+    </string-array>
+
+    <string-array name="lab_city_names">
+        <item>Select Lab City</item>
+        <item>Ahmedabad</item>
+        <item>Vadodara</item>
+        <item>Gandhinagar</item>
+        <item>Surat</item>
+        <item>Rajkot</item>
+    </string-array>
+
+    <string-array name="lab_established_year">
+        <item>Select Lab Established Year</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="lab_categories">
+        <item>Select Appropriate Category</item>
+        <item>Food Testing</item>
+        <item>Water Testing</item>
+        <item>Pharmacy Testing</item>
+        <item>Bootny Testing</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+    <!-- STRING VALUES OF USER DRAWER MENU OPTION-->
+    <string name="user_home">Home</string>
+    <string name="user_status_of_request">View Status Of Request</string>
+    <string name="user_notifications">Notifications</string>
+
+    <string name="user_password_change">Change Password</string>
+    <string name="user_address_change">Change Address</string>
+    <string name="user_test_history">View Your Past Test History</string>
+
+    <string name="user_request_for_sample_collect">Request to Collect Sample</string>
+
+    <string name="user_about_us">About Us</string>
+    <string name="user_contact_us">Contact Us</string>
+    <string name="user_logout">Log-Out</string>
+
+    <!-- STRING VALUES OF LAB DRAWER MENU OPTION-->
+    <string name="lab_home">Home</string>
+    <string name="lab_password_change">Change Password</string>
+    <string name="lab_address_change">Change Address</string>
+
+    <string name="lab_notifications">Notifications</string>
+    <string name="lab_add_test_details">Add New Test Details</string>
+    <string name="lab_view_test_details">View / Edit Test Details</string>
+
+    <string name="lab_view_pending_order">View Pending Test Orders</string>
+    <string name="lab_request_for_report_collect">Request to Collect Report</string>
+    <string name="lab_view_past_order">View Past Test Orders</string>
+
+    <string name="lab_about_us">About Us</string>
+    <string name="lab_contact_us">Contact Us</string>
+    <string name="lab_logout">Log-Out</string>
+
+    <!-- STRING VALUES OF DELIVERY STAFF DRAWER MENU OPTION-->
+    <string name="delivery_home">Home</string>
+    <string name="delivery_password_change">Change Password</string>
+    <string name="delivery_address_change">Change Address</string>
+
+    <string name="delivery_notifications">Notifications</string>
+    <string name="delivery_past_history">View Your Past Deliveries History</string>
+
+    <string name="delivery_about_us">About Us</string>
+    <string name="delivery_contact_us">Contact Us</string>
+    <string name="delivery_logout">Log-Out</string>
+
+</resources>

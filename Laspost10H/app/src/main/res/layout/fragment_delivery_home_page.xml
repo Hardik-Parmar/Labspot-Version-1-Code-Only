@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:paddingBottom="5dp"
+    tools:context=".delivery.after_login.Delivery_Home_Page">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Choice Any One of Two Button to View Your Delivery Request."
+        android:textColor="#FF0000"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-medium"
+        android:focusable="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_background"
+            android:layout_gravity="center_horizontal"
+            android:text="Request From Customer"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:id="@+id/delivery_view_user_request"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_background"
+            android:layout_gravity="center_horizontal"
+            android:text="Request From Laboratory"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:id="@+id/delivery_view_lab_request"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".delivery.after_login.Delivery_User_Request_Take_Action">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery Request From Customers Please Take Appropriate Action"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#262626"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request From Customer to Collect the Sample"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_from"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request I'D"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_id"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applicant Name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_applicant_name"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applicant Address"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_applicant_address"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applicant Phone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_applicant_phone"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applicant Email"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_applicant_email"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lab Name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_lab_name"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lab Address"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_lab_address"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lab Phone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_lab_phone"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lab email"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_lab_email"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_test_name"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test Price"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14dp"
+                android:textColor="#262626"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_test_price"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* INSTRUCTION"
+                android:layout_marginLeft="15dp"
+                android:textSize="11dp"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15dp"
+                android:textColor="#FF0000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/user_delivery_request_instruction"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_background"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Reject Request"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/user_delivery_request_reject_button"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_background"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Accept Request"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:id="@+id/user_delivery_request_accept_button"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

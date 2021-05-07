@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1">
+
+        <item android:id="@+id/lab_home"
+            android:icon="@drawable/home"
+            android:title="@string/lab_home"/>
+
+        <item android:id="@+id/lab_password_change"
+            android:icon="@drawable/password_change"
+            android:title="@string/lab_password_change"/>
+
+        <item android:id="@+id/lab_address_change"
+            android:icon="@drawable/address_change"
+            android:title="@string/lab_address_change"/>
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group2">
+
+        <item android:id="@+id/lab_add_test_details"
+            android:icon="@drawable/add_test"
+            android:title="@string/lab_add_test_details"/>
+
+        <item android:id="@+id/lab_view_test_details"
+            android:icon="@drawable/edit_and_view"
+            android:title="@string/lab_view_test_details"/>
+
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+
+        <item android:id="@+id/lab_view_pending_order"
+            android:icon="@drawable/pending_order"
+            android:title="@string/lab_view_pending_order"/>
+
+        <item android:id="@+id/lab_request_for_report_collect"
+            android:icon="@drawable/request_delivery_boy"
+            android:title="@string/lab_request_for_report_collect"/>
+
+        <item android:id="@+id/lab_view_past_order"
+            android:icon="@drawable/history"
+            android:title="@string/lab_view_past_order"/>
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group4">
+
+        <item android:id="@+id/lab_about_us"
+            android:icon="@drawable/about_us"
+            android:title="@string/lab_about_us"/>
+
+        <item android:id="@+id/lab_contact_us"
+            android:icon="@drawable/contact_us"
+            android:title="@string/lab_contact_us"/>
+
+        <item android:id="@+id/lab_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/lab_logout"/>
+
+    </group>
+
+</menu>
